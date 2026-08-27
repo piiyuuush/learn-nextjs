@@ -8,13 +8,17 @@ export const metadata: Metadata = {
   description: "Entirely for learning the next js with typescript project",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html>
-      <body className="min-h-full flex flex-col">
-        <Navbar/>
-          {children}
-        <Footer/>
+    <html lang="en">
+      <body className="min-h-screen flex flex-col bg-zinc-950 text-zinc-100 antialiased selection:bg-zinc-800 selection:text-zinc-100">
+        <Navbar />
+        <main className="flex-1">{children}</main>
+        <Footer />
       </body>
     </html>
   );

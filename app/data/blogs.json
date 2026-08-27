@@ -1,12 +1,29 @@
 [
   {
     "id": "1",
-    "title": "Getting Started with Next.js",
-    "content": "Next.js is a React framework for full-stack apps."
+    "title": "Getting Started with Next.js & App Router",
+    "excerpt": "Learn how the modern Next.js App Router simplifies routing, layouts, and server components.",
+    "content": "Next.js brings React into the modern full-stack world. With the App Router, building complex web applications becomes intuitive thanks to nested layouts, automatic code-splitting, and built-in server-side rendering.\n\nBy leveraging React Server Components (RSC), your components execute on the server by default, drastically reducing bundle size and improving initial page load performance.",
+    "category": "Architecture",
+    "date": "Aug 24, 2026",
+    "readTime": "3 min read"
   },
   {
     "id": "2",
-    "title": "Mastering Dynamic Routes",
-    "content": "Dynamic routes allow you to create flexible URLs."
+    "title": "Mastering Dynamic Routes in Next.js",
+    "excerpt": "Deep dive into dynamic segment folders, catch-all routes, and async params.",
+    "content": "Dynamic routing in Next.js relies on clean folder naming conventions using brackets like [id] or [...slug]. When a user visits a dynamic route, Next.js matches the path segment and provides the parameter directly to your Page component via an async params Promise.\n\nThis pattern eliminates the need for complex client-side routing configs and makes building dashboards, e-commerce product catalogs, and blogs effortless.",
+    "category": "Next.js",
+    "date": "Aug 26, 2026",
+    "readTime": "4 min read"
+  },
+  {
+    "id": "3",
+    "title": "Styling Modern Web Apps with Tailwind CSS v4",
+    "excerpt": "How to craft clean, responsive, dark-mode first user interfaces with Tailwind CSS.",
+    "content": "Tailwind CSS v4 introduces a streamlined engine with zero-config setup and lightning-fast compilation. Utilizing utility classes for layout (flex, grid), spacing, and responsive design keeps UI code concise and maintainable.\n\nPairing Tailwind's zinc color palette with subtle borders and glassmorphism produces a sleek, modern developer-focused aesthetic.",
+    "category": "Design",
+    "date": "Aug 27, 2026",
+    "readTime": "5 min read"
   }
 ]
