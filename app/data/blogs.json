@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "title": "Getting Started with Next.js",
+    "content": "Next.js is a React framework for full-stack apps."
+  },
+  {
+    "id": "2",
+    "title": "Mastering Dynamic Routes",
+    "content": "Dynamic routes allow you to create flexible URLs."
+  }
+]
